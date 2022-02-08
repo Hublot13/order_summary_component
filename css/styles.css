@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-color: hsl(225, 100%, 94%);
+
+}
+
+section{
+    width: 400px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    box-shadow: 0px 15px 30px -15px hsl(224, 23%, 55%);
+    padding-bottom: 20px;
+}
+h1{
+    color: hsl(223, 47%, 23%);
+    padding-top: 20px;
+    font-size: 25px;   
+    text-align: center;
+    font-weight: 900;
+}
+p{
+
+        line-height: 1.5;
+        text-align: center;  
+}
+
+.main{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    position: relative;
+    width: 400px;
+}
+
+.container img.bigpic{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.descp{ 
+    padding-top: 10px;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    text-indent: 1.5;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    font-weight: 400;
+}
+
+.middle{
+    background-color: hsl(225, 100%, 96%);
+    margin: 20px;
+    border-radius: 10px;
+    width: 80%;
+  }
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 10px 0 10px 0;
+}
+.music{
+    padding: 15px 15px;
+    align-self:center;
+}
+.plan-price{
+    color: hsl(223, 47%, 23%);
+    text-align: left;
+}
+
+.plan-price strong{
+    font-weight: 900;
+}
+.middle a{
+    text-align: right;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    font-size: 12px;
+    padding-left: 80px;
+    color: hsl(245, 75%, 52%);
+  }
+  
+.middle a:hover{
+    color: #766CF1;
+}
+
+
+.back p{
+    color: hsl(224, 23%, 55%);
+}
+.btn{
+    box-shadow: 0px 20px 30px -15px hsl(224, 23%, 55%);
+    padding: 10px;
+    background-color:#382AE1;
+    color:white;
+    width:320px;
+    height:45px;
+    margin: 0 auto;
+    border-radius:10px;
+    font-weight:bold;
+    line-height: 40px;
+    font-size: 15px;
+}
+.btn p{
+    color: white;
+}
+.btn:hover{
+    background-color:#766CF1;
+    cursor:pointer;
+}
+  
+.foot{ 
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 900;
+    font-style: bold;
+    color: hsl(224, 23%, 55%);
+    margin: 20px;
+}
+.foot:hover{
+    color:black;
+    cursor: pointer;
+}
+.attribution{
+    font-size: 10px;
+    position: absolute;
+    bottom: 12px;
+    justify-self: flex-end;
+    align-self: flex-end;   
+}
+
+.attribution a{
+    text-decoration: none;
+}
